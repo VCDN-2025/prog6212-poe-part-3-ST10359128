@@ -1,0 +1,31 @@
+C:\Users\Sion\Downloads\ST10359128_PROG6212_POE_Part1\obj\Debug\net8.0\ST10359128 - PROG6212 - POE - Part2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sion\Downloads\ST10359128_PROG6212_POE_Part1\obj\Debug\net8.0\ST10359128 - PROG6212 - POE - Part2.AssemblyInfoInputs.cache
+C:\Users\Sion\Downloads\ST10359128_PROG6212_POE_Part1\obj\Debug\net8.0\ST10359128 - PROG6212 - POE - Part2.AssemblyInfo.cs
+C:\Users\Sion\Downloads\ST10359128_PROG6212_POE_Part1\obj\Debug\net8.0\ST10359128 - PROG6212 - POE - Part2.csproj.CoreCompileInputs.cache
+C:\Users\Sion\Downloads\ST10359128_PROG6212_POE_Part1\obj\Debug\net8.0\ST10359128 - PROG6212 - POE - Part2.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Sion\Downloads\ST10359128_PROG6212_POE_Part1\obj\Debug\net8.0\ST10359128 - PROG6212 - POE - Part2.RazorAssemblyInfo.cache
+C:\Users\Sion\Downloads\ST10359128_PROG6212_POE_Part1\obj\Debug\net8.0\ST10359128 - PROG6212 - POE - Part2.RazorAssemblyInfo.cs
+C:\Users\Sion\Downloads\ST10359128_PROG6212_POE_Part1\obj\Debug\net8.0\ST10359128 - PROG6212 - POE - Part2.sourcelink.json
+C:\Users\Sion\Downloads\ST10359128_PROG6212_POE_Part1\bin\Debug\net8.0\ST10359128 - PROG6212 - POE - Part2.staticwebassets.runtime.json
+C:\Users\Sion\Downloads\ST10359128_PROG6212_POE_Part1\bin\Debug\net8.0\ST10359128 - PROG6212 - POE - Part2.staticwebassets.endpoints.json
+C:\Users\Sion\Downloads\ST10359128_PROG6212_POE_Part1\bin\Debug\net8.0\ST10359128 - PROG6212 - POE - Part2.exe
+C:\Users\Sion\Downloads\ST10359128_PROG6212_POE_Part1\bin\Debug\net8.0\ST10359128 - PROG6212 - POE - Part2.deps.json
+C:\Users\Sion\Downloads\ST10359128_PROG6212_POE_Part1\bin\Debug\net8.0\ST10359128 - PROG6212 - POE - Part2.runtimeconfig.json
+C:\Users\Sion\Downloads\ST10359128_PROG6212_POE_Part1\bin\Debug\net8.0\ST10359128 - PROG6212 - POE - Part2.dll
+C:\Users\Sion\Downloads\ST10359128_PROG6212_POE_Part1\bin\Debug\net8.0\ST10359128 - PROG6212 - POE - Part2.pdb
+C:\Users\Sion\Downloads\ST10359128_PROG6212_POE_Part1\obj\Debug\net8.0\scopedcss\bundle\ST10359128 - PROG6212 - POE - Part2.styles.css
+C:\Users\Sion\Downloads\ST10359128_PROG6212_POE_Part1\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Sion\Downloads\ST10359128_PROG6212_POE_Part1\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Sion\Downloads\ST10359128_PROG6212_POE_Part1\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Sion\Downloads\ST10359128_PROG6212_POE_Part1\obj\Debug\net8.0\staticwebassets\msbuild.ST10359128 - PROG6212 - POE - Part2.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Sion\Downloads\ST10359128_PROG6212_POE_Part1\obj\Debug\net8.0\staticwebassets\msbuild.ST10359128 - PROG6212 - POE - Part2.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Sion\Downloads\ST10359128_PROG6212_POE_Part1\obj\Debug\net8.0\staticwebassets\msbuild.build.ST10359128 - PROG6212 - POE - Part2.props
+C:\Users\Sion\Downloads\ST10359128_PROG6212_POE_Part1\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ST10359128 - PROG6212 - POE - Part2.props
+C:\Users\Sion\Downloads\ST10359128_PROG6212_POE_Part1\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ST10359128 - PROG6212 - POE - Part2.props
+C:\Users\Sion\Downloads\ST10359128_PROG6212_POE_Part1\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Sion\Downloads\ST10359128_PROG6212_POE_Part1\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Sion\Downloads\ST10359128_PROG6212_POE_Part1\obj\Debug\net8.0\ST10359128 - PROG6212 - POE - Part2.dll
+C:\Users\Sion\Downloads\ST10359128_PROG6212_POE_Part1\obj\Debug\net8.0\refint\ST10359128 - PROG6212 - POE - Part2.dll
+C:\Users\Sion\Downloads\ST10359128_PROG6212_POE_Part1\obj\Debug\net8.0\ST10359128 - PROG6212 - POE - Part2.pdb
+C:\Users\Sion\Downloads\ST10359128_PROG6212_POE_Part1\obj\Debug\net8.0\ST10359128 - PROG6212 - POE - Part2.genruntimeconfig.cache
+C:\Users\Sion\Downloads\ST10359128_PROG6212_POE_Part1\obj\Debug\net8.0\ref\ST10359128 - PROG6212 - POE - Part2.dll

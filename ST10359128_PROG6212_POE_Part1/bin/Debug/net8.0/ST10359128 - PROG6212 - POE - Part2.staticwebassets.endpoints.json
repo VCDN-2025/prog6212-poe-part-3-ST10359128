@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "ManifestType": "Build",
+  "Endpoints": [
+    {
+      "Route": "css/site.css",
+      "AssetFile": "css/site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "124"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QjtfBFCx5LNEK4hzOl08pChZHz5RGiNto1OSpRIs1BI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Oct 2025 09:29:48 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QjtfBFCx5LNEK4hzOl08pChZHz5RGiNto1OSpRIs1BI="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.qiyamuqrox.css",
+      "AssetFile": "css/site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "124"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QjtfBFCx5LNEK4hzOl08pChZHz5RGiNto1OSpRIs1BI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Oct 2025 09:29:48 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qiyamuqrox"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QjtfBFCx5LNEK4hzOl08pChZHz5RGiNto1OSpRIs1BI="
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        }
+      ]
+    }
+  ]
+}

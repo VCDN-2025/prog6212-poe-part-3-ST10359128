@@ -1,0 +1,63 @@
+@model ST10359128_PROG6212_POE_Part1.Models.Claim
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Submit Claim";
+}
+
+<div class="container mt-5">
+    <h2 class="fw-bold text-primary mb-4 text-center">Submit Lecturer Claim</h2>
+
+    @if (ViewBag.Message != null)
+    {
+        <div class="alert alert-warning text-center fw-semibold">@ViewBag.Message</div>
+    }
+
+    <form asp-controller="Dashboard" asp-action="Submit"
+          method="post" enctype="multipart/form-data">
+        @Html.AntiForgeryToken()
+
+
+        <!-- Lecturer Name -->
+        <div class="mb-3">
+            <label asp-for="LecturerName" class="form-label fw-semibold text-primary">Lecturer Name</label>
+            <input asp-for="LecturerName" class="form-control @(ViewData.ModelState["LecturerName"]?.Errors.Count > 0 ? "is-invalid" : "")" placeholder="Enter full name" />
+            <span asp-validation-for="LecturerName" class="text-danger small"></span>
+        </div>
+
+        <!-- Hours Worked -->
+        <div class="mb-3">
+            <label asp-for="HoursWorked" class="form-label fw-semibold text-primary">Hours Worked</label>
+            <input asp-for="HoursWorked" type="number" class="form-control @(ViewData.ModelState["HoursWorked"]?.Errors.Count > 0 ? "is-invalid" : "")" placeholder="e.g. 10" />
+            <span asp-validation-for="HoursWorked" class="text-danger small"></span>
+        </div>
+
+        <!-- Hourly Rate -->
+        <div class="mb-3">
+            <label asp-for="HourlyRate" class="form-label fw-semibold text-primary">Hourly Rate (R)</label>
+            <input asp-for="HourlyRate" type="number" class="form-control @(ViewData.ModelState["HourlyRate"]?.Errors.Count > 0 ? "is-invalid" : "")" placeholder="e.g. 450" />
+            <span asp-validation-for="HourlyRate" class="text-danger small"></span>
+        </div>
+
+        <!-- Additional Notes -->
+        <div class="mb-3">
+            <label asp-for="Notes" class="form-label fw-semibold text-primary">Additional Notes</label>
+            <textarea asp-for="Notes" class="form-control" rows="3" placeholder="Optional notes about your claim..."></textarea>
+        </div>
+
+        <!-- Upload Document -->
+        <div class="mb-3">
+            <label class="form-label fw-semibold text-primary">Upload Supporting Document</label>
+            <input type="file" name="document" class="form-control" />
+            <small class="text-muted">Allowed: PDF, DOCX, XLSX (max 5 MB)</small>
+        </div>
+
+        <!-- Submit -->
+        <div class="text-center mt-4">
+            <button type="submit" class="btn btn-primary px-4">Submit Claim</button>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

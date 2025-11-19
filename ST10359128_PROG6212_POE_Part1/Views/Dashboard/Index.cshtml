@@ -1,0 +1,95 @@
+@model List<ST10359128_PROG6212_POE_Part1.Models.Claim>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Dashboard";
+}
+<h2 class="text-primary fw-bold mb-3">Dashboard</h2>
+@if (ViewBag.SuccessMessage != null)
+{
+    <div class="alert alert-success text-center fw-semibold shadow-sm">
+        @ViewBag.SuccessMessage
+    </div>
+}
+
+
+<div class="row g-4">
+    <!-- Lecturer View -->
+    <div class="col-lg-7">
+        <div class="card shadow-sm">
+            <div class="card-header bg-primary text-white">Lecturer View</div>
+            <div class="card-body">
+                <a href="/Dashboard/Submit" class="btn btn-success mb-3">Submit New Claim</a>
+                <table class="table table-striped align-middle">
+                    <thead class="table-light">
+                        <tr>
+                            <th>ID</th>
+                            <th>Lecturer</th>
+                            <th>Hours</th>
+                            <th>Amount</th>
+                            <th>Status</th>
+                            <th>Date</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var c in Model)
+                        {
+                            <tr>
+                                <td>@c.Id</td>
+                                <td>@c.LecturerName</td>
+                                <td>@c.HoursWorked</td>
+                                <td>R @c.Amount</td>
+                                <td>
+                                    <span class="badge @(c.Status=="Approved"?"bg-success":c.Status=="Rejected"?"bg-danger":"bg-warning text-dark")">@c.Status</span>
+                                </td>
+                                <td>@c.Date.ToString("yyyy/MM/dd")</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Manager View -->
+    <div class="col-lg-5">
+        <div class="card shadow-sm">
+            <div class="card-header bg-secondary text-white">Manager View</div>
+            <div class="card-body">
+                <table class="table table-hover align-middle">
+                    <thead class="table-light">
+                        <tr>
+                            <th>ID</th>
+                            <th>Lecturer</th>
+                            <th>Hours</th>
+                            <th>Amount</th>
+                            <th>Status</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var c in Model)
+                        {
+                            <tr>
+                                <td>@c.Id</td>
+                                <td>@c.LecturerName</td>
+                                <td>@c.HoursWorked</td>
+                                <td>R @c.Amount</td>
+                                <td>
+                                    <span class="badge @(c.Status=="Approved"?"bg-success":c.Status=="Rejected"?"bg-danger":"bg-warning text-dark")">@c.Status</span>
+                                </td>
+                                <td>
+                                    <form method="post" action="/Dashboard/UpdateStatus" class="d-flex gap-2">
+                                        <input type="hidden" name="id" value="@c.Id" />
+                                        <button name="actionType" value="Approve" class="btn btn-sm btn-success">Approve</button>
+                                        <button name="actionType" value="Reject" class="btn btn-sm btn-danger">Reject</button>
+                                    </form>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+                <a href="/Dashboard/ManagerView" class="btn btn-outline-primary btn-sm">Open Full Manager View</a>
+            </div>
+        </div>
+    </div>
+</div>

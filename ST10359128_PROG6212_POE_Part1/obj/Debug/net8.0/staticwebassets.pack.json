@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Sion\\Downloads\\ST10359128_PROG6212_POE_Part1\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ST10359128 - PROG6212 - POE - Part1.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ST10359128 - PROG6212 - POE - Part1.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ST10359128 - PROG6212 - POE - Part1.props",
+      "PackagePath": "build\\ST10359128 - PROG6212 - POE - Part1.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ST10359128 - PROG6212 - POE - Part1.props",
+      "PackagePath": "buildMultiTargeting\\ST10359128 - PROG6212 - POE - Part1.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ST10359128 - PROG6212 - POE - Part1.props",
+      "PackagePath": "buildTransitive\\ST10359128 - PROG6212 - POE - Part1.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,16 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/ST10359128 - PROG6212 - POE - Part2/css/site.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-QjtfBFCx5LNEK4hzOl08pChZHz5RGiNto1OSpRIs1BI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"124"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022QjtfBFCx5LNEK4hzOl08pChZHz5RGiNto1OSpRIs1BI=\u0022"},{"Name":"Last-Modified","Value":"Fri, 17 Oct 2025 09:29:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ST10359128 - PROG6212 - POE - Part2/css/site.qiyamuqrox.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"qiyamuqrox"},{"Name":"integrity","Value":"sha256-QjtfBFCx5LNEK4hzOl08pChZHz5RGiNto1OSpRIs1BI="},{"Name":"label","Value":"_content/ST10359128 - PROG6212 - POE - Part2/css/site.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"124"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022QjtfBFCx5LNEK4hzOl08pChZHz5RGiNto1OSpRIs1BI=\u0022"},{"Name":"Last-Modified","Value":"Fri, 17 Oct 2025 09:29:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

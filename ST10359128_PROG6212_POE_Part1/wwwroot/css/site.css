@@ -1,0 +1,35 @@
+body {
+    background: #fff;
+    font-family: 'Segoe UI',sans-serif;
+}
+
+h1, h2 {
+    color: #1f77e0;
+    font-weight: 600;
+}
+
+.navbar {
+    box-shadow: 0 2px 6px rgba(0,0,0,.08);
+}
+
+.table th {
+    background-color: #1f77e0;
+    color: white;
+}
+
+.btn-primary {
+    background: #1f77e0;
+    border: none;
+}
+
+    .btn-primary:hover {
+        background: #155bb0;
+    }
+.form-label {
+    color: #0a4abf;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 5px rgba(31,119,224,0.4);
+    border-color: #1f77e0;
+}

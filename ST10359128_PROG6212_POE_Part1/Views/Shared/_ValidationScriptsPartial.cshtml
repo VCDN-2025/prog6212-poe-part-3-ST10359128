@@ -1,0 +1,18 @@
+﻿@* Enables client-side form validation *@
+<environment include="Development">
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+</environment>
+
+<environment exclude="Development">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJ+Y7RQ9ZoN2GZQvYpM9f1FdjLtEJ9+Yx5T0k="
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"
+            integrity="sha512-FOs23n1FVzxrjD6CEYlKZYH0iAmV9Qp9p7LKZIbD6D34pPZxZB8Yk7V1rK9LbXkq+vUevI7qJp9kV9z+LJQy3Q=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.12/jquery.validate.unobtrusive.min.js"
+            integrity="sha512-HRZmyGAm0JvUvflW9bME3g1xRjK5r1XcCjvKcHTtd6pq08N7Y3DRxvctDzG8iJqKgIHLdWiVhCeCUC+gNRTH1w=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</environment>

@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "Hash": "jaONqqD+OnI484oPANxSnu1yzy4m/B21ceKbneyBUVY=",
+  "Source": "ST10359128 - PROG6212 - POE - Part1",
+  "BasePath": "_content/ST10359128 - PROG6212 - POE - Part1",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ST10359128 - PROG6212 - POE - Part1\\wwwroot",
+      "Source": "ST10359128 - PROG6212 - POE - Part1",
+      "ContentRoot": "C:\\Users\\Sion\\Downloads\\ST10359128_PROG6212_POE_Part1\\wwwroot\\",
+      "BasePath": "_content/ST10359128 - PROG6212 - POE - Part1",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Sion\\Downloads\\ST10359128_PROG6212_POE_Part1\\wwwroot\\css\\site.css",
+      "SourceId": "ST10359128 - PROG6212 - POE - Part1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Sion\\Downloads\\ST10359128_PROG6212_POE_Part1\\wwwroot\\",
+      "BasePath": "_content/ST10359128 - PROG6212 - POE - Part1",
+      "RelativePath": "css/site#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "l4xry9xzsf",
+      "Integrity": "iym5i9KMHoXcFyHDszfsPNdU+BLFTHLcA+L/Kh0K6ps=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\Sion\\Downloads\\ST10359128_PROG6212_POE_Part1\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "501"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iym5i9KMHoXcFyHDszfsPNdU+BLFTHLcA+L/Kh0K6ps=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Oct 2025 10:30:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iym5i9KMHoXcFyHDszfsPNdU+BLFTHLcA+L/Kh0K6ps="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.l4xry9xzsf.css",
+      "AssetFile": "C:\\Users\\Sion\\Downloads\\ST10359128_PROG6212_POE_Part1\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "501"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iym5i9KMHoXcFyHDszfsPNdU+BLFTHLcA+L/Kh0K6ps=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Oct 2025 10:30:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l4xry9xzsf"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iym5i9KMHoXcFyHDszfsPNdU+BLFTHLcA+L/Kh0K6ps="
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "ST10359128 - PROG6212 - POE - Part1": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:58304;http://localhost:58305"
+    }
+  }
+}
